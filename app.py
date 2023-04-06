@@ -5,7 +5,7 @@ from PIL import Image
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=":winking_face:", layout="wide")
 
 
 def load_lottieurl(url):
@@ -30,10 +30,10 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Sven :wave:")
-    st.title("A Data Analyst From Germany")
+    st.subheader("Hi, I am Yasiru :wave:")
+    st.title("A ML  enthusiastic From Sri lanka")
     st.write(
-        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
+        "I am passionate about finding ways to use Python and machinelearning to be more efficient and effective in business settings."
     )
     st.write("[Learn More >](https://pythonandvba.com)")
 
